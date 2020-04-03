@@ -124,18 +124,25 @@ public class CheckoutActivity extends AppCompatActivity {
         checkout.setTransactionSubType(PaymentActivity.TRANSACTION_SUBTYPE_DEBIT);
         checkout.setTransactionCurrency("INR");
         checkout.setTransactionAmount("1");
-        checkout.setTransactionDateTime("31-03-2020");
-        checkout.setConsumerIdentifier("testuser");
-        checkout.setConsumerEmailID("test@gmail.com");
-        checkout.setConsumerMobileNumber("7620656789");
+        checkout.setTransactionDateTime("03-04-2020");
+        checkout.setConsumerIdentifier("10086");
+        checkout.setConsumerEmailID("rohitbhard@gmail.com");
+        checkout.setConsumerMobileNumber("8826120009");
         checkout.setConsumerAccountNo("");
         checkout.addCartItem("FIRST", "1", "0.0", "0.0", "", "", "", "");
         checkout.setPaymentInstructionAction("Y");
-        checkout.setPaymentInstructionStartDateTime("01-04-2020");
+        checkout.setPaymentInstructionStartDateTime("03-04-2020");
         checkout.setPaymentInstructionEndDateTime("25-02-2050");
         checkout.setPaymentInstructionLimit("100");
         checkout.setPaymentInstructionFrequency("ADHO");
         checkout.setPaymentInstructionType("F");
+
+        checkout.setConsumerAccountHolderName("ROHIT BHARDWAJ");
+        checkout.setConsumerAccountType("Saving");
+        checkout.setConsumerAccountNo("031401543318");
+        checkout.setConsumerPan("AMDPB1252C"); //Consumer PAN
+        checkout.setConsumerPhoneNumber("8826120009"); //Consumer Phone Number
+
         Intent authIntent = PaymentModesActivity.Factory.getAuthorizationIntent(getApplicationContext(), true);
         // Checkout Object
         Log.d("Checkout Request Object", checkout.getMerchantRequestPayload().toString());

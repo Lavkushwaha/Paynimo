@@ -123,6 +123,12 @@
     <string name="paynimo_digital_mandate_vid_use">If you already have a VID please click on authenticate now or click on below button to generate a VID and proceed ahead.</string>
     <string name="paynimo_digital_mandate_btn_generate_vid_label">Generate Virtual ID*</string>
     <string name="paynimo_digital_mandate_vid_note">*You will be redirected to UIDAI website for generating the VID</string>
+    <string name="paynimo_digital_mandate_invalid_pan_error_message">Enter valid PAN</string>
+    <string name="paynimo_digital_mandate_invalid_phone_no_error_message">Enter valid Phone No</string>
+    <string name="paynimo_digital_mandate_invalid_email_error_message">Enter valid Email ID</string>
+    <string name="paynimo_digital_mandate_invalid_mobile_no_error_message">Enter valid Mobile No</string>
+    <string name="paynimo_digital_mandate_invalid_acc_holder_name_error_message">Enter valid Account Holder Name</string>
+    <string name="paynimo_digital_mandate_invalid_acc_number_error_message">Enter valid Account Number</string>
 
     <!-- OTP READ -->
     <string name="paynimo_otp_otp_hint">Enter OTP</string>
@@ -170,6 +176,9 @@
     <string name="regex_ifsc">[A-Z|a-z|0-9]{11}</string>
     <string name="regex_acc_holder_name">^[a-zA-Z0-9\'. ]+$</string>
     <string name="regex_acc_no">^[a-zA-Z0-9]+$</string>
+    <string name="regex_pan">^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$</string>
+    <string name="regex_mobile">[0-9]{10}</string>
+    <string name="regex_number_only">[0-9]+</string>
 
     <string name="regex_visa_partial">^4</string>
     <string name="regex_rupay_partial">^(607802)</string>

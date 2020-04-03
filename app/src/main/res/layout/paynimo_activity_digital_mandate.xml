@@ -179,6 +179,48 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/paynimo_n_lyt_enach"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/paynimo_listDividerColor" />
+
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Utility Number" />
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:id="@+id/paynimo_n_tv_utility_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/paynimo_listDividerColor" />
+
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Purpose of Mandate" />
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:id="@+id/paynimo_n_tv_mandate_purpose"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
             </LinearLayout>
             <!-- ===========    SI Container  for NON Edit end =========== -->
 
@@ -335,6 +377,49 @@
                         android:id="@+id/paynimo_card_spinner_debitDay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/paynimo_lyt_enach"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/paynimo_listDividerColor" />
+
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Utility Number" />
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:id="@+id/paynimo_tv_utility_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/paynimo_listDividerColor" />
+
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Purpose of Mandate" />
+                    <com.paynimo.android.payment.CustomTextView
+                        style="@style/TextViewPaynimo"
+                        android:id="@+id/paynimo_tv_mandate_purpose"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
                 </LinearLayout>
             </LinearLayout>
 
