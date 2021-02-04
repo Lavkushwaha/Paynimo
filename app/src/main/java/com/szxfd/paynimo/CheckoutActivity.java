@@ -123,7 +123,7 @@ public class CheckoutActivity extends AppCompatActivity {
         checkout.setTransactionType(PaymentActivity.TRANSACTION_TYPE_SALE);
         checkout.setTransactionSubType(PaymentActivity.TRANSACTION_SUBTYPE_DEBIT);
         checkout.setTransactionCurrency("INR");
-        checkout.setTransactionAmount("1");
+        checkout.setTransactionAmount("50");
         checkout.setTransactionDateTime("03-04-2020");
         checkout.setConsumerIdentifier("10086");
         checkout.setConsumerEmailID("rohitbhard@gmail.com");
@@ -131,7 +131,7 @@ public class CheckoutActivity extends AppCompatActivity {
         checkout.setConsumerAccountNo("");
         checkout.addCartItem("FIRST", "1", "0.0", "0.0", "", "", "", "");
         checkout.setPaymentInstructionAction("Y");
-        checkout.setPaymentInstructionStartDateTime("03-04-2020");
+        checkout.setPaymentInstructionStartDateTime("05-02-2021");
         checkout.setPaymentInstructionEndDateTime("25-02-2050");
         checkout.setPaymentInstructionLimit("100");
         checkout.setPaymentInstructionFrequency("ADHO");
